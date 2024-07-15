@@ -1,11 +1,22 @@
-/*  your css code here. If applicable */
-/* body{
-	font-family:Arial, sans-serif;
+
+.img{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s");
+	background-repeat:no-repeat;
+	  background-size: cover;
 }
 ul{
-	list-style-type:none;
-	padding:0;
+ 
+	background-color:white;
+	li{
+	width:100px;
+	width:220px;
+	padding:10px;
+	background-color:white
 }
-li{
-	margin:5px 0;
-} */
+}
+ 
+.a{
+	width:30%;
+	margin:0 auto;
+	/* background-color:red */
+}
