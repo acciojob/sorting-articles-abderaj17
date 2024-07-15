@@ -32,16 +32,14 @@
             return word.replace(/^(a |an |the )/i, '').trim();
         }
 
-        function sortBands(bands) {
-            return bands.sort((a, b) => stripArticle(a).localeCompare(stripArticle(b)));
-        }
+        bands.sort((a, b) => stripArticle(a).localeCompare(stripArticle(b)));
 
         function displayBands(bands) {
             const bandList = document.getElementById('band');
             bandList.innerHTML = bands.map(band => `<li>${band}</li>`).join('');
         }
-         const sortedBands = sortBands(bands);
-            displayBands(sortedBands);
+
+        displayBands(bands);
     </script>
 </body>
 </html>
