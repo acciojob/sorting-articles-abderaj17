@@ -40,11 +40,8 @@
             const bandList = document.getElementById('band');
             bandList.innerHTML = bands.map(band => `<li>${band}</li>`).join('');
         }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const sortedBands = sortBands(bands);
+         const sortedBands = sortBands(bands);
             displayBands(sortedBands);
-        });
     </script>
 </body>
 </html>
